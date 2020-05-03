@@ -1,0 +1,176 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+  background-color: pink;
+}
+
+input {
+  width: 1000px;
+  height: 100px;
+  font-size: 48px;
+}
+
+img {width: 1000px;
+    justify-content:center;
+}
+
+p {
+  background-color: pink;
+  font-size: 48px;
+}
+
+h3, h2, h1, p:hover {
+color: white; 
+text-shadow: 4px 4px 4px black; 
+}
+
+button {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  width: 250px;
+  border: none;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+button:hover {
+  color: white; 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.main-container {padding: 10px;}
+
+.header {
+  -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color: #ffec64;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #ffaa22;
+	display: inline-block;
+	color: #333333;
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 9px 100px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ffee66;
+  text-align: center;
+}
+
+.desc {
+  font-size: 25px;
+  padding: 25px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.gif {
+  justify-content: center;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border: 6px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items:center;
+  height: 350px;
+  width: 350px;
+}
+
+.gif2 {
+  justify-content: center;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border: 6px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items:center;
+  width: 1000px;
+}
+
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color: #ffec64;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #ffaa22;
+	display: inline-block;
+	cursor: pointer;
+	color: #333333;
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 9px 13px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ffee66;
+}
+
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color: #ffab23;
+}
+
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+.button-container2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+
+}
+.margin {
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.goBack {margin-top: 50px;}
+
+.quote {font-style:italic;
+  font-size:40;
+}
+
+.trytry{
+  display:flex;
+  flex-direction: column;
+}
+
+.gif{
+  justify-content: center;
+}
+  
